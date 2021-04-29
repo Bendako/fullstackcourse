@@ -1,0 +1,99 @@
+* {
+  direction: rtl;
+}
+
+#nav {
+  border-style: groove;
+  text-align: center;
+  background-color: gray;
+  padding-top: 20px;
+  margin: 0;
+  height: 50px;
+}
+
+a:hover {
+  background-color: rgb(0, 247, 255);
+  border-left-color: black;
+  border-right-color: black;
+  box-shadow: inset 3px 0px 3px 0px;
+}
+
+#HTML5 {
+  background-color: gray;
+}
+
+#CSS3 {
+  background-color: gray;
+}
+
+#JS {
+  background-color: gray;
+}
+
+#PHP {
+  background-color: gray;
+}
+
+#Wordpress {
+  background-color: gray;
+}
+
+#pic-me {
+  position: inherit;
+  display: inline-block;
+  border-radius: 16.18%;
+  right: 900px;
+  bottom: 100px;
+  overflow: hidden;
+}
+
+#my-info {
+  border-radius: 10%;
+  max-width: 100%;
+  position: relative;
+  border-style: groove;
+  background-color: ghostwhite;
+}
+
+#about-me {
+  margin: 0 auto;
+  display: inline-block;
+  bottom: 30px;
+}
+
+main {
+  border-style: groove;
+  background-color: ghostwhite;
+}
+
+#space-x {
+  border-radius: 16.18%;
+  margin: 10px;
+}
+
+#bezos {
+  border-radius: 16.18%;
+  margin: 10px;
+}
+
+#p2 {
+  float: left;
+  text-align: left;
+}
+
+#p3 {
+  float: left;
+  text-align: left;
+}
+
+#form {
+  border-radius: 10%;
+  border-style: groove;
+  text-align: center;
+  background-color: gray;
+}
+
+#footer {
+  text-align: center;
+  background-color: ghostwhite;
+}

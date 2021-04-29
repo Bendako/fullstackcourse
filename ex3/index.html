@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Ex3</title>
+  </head>
+  <body>
+    <header>
+      <!-- NavBar -->
+      <nav id="nav">
+        <a href="#">אודותיי</a>
+        <a href="#">העבודות שלי</a>
+        <a href="#">צור קשר</a>
+      </nav>
+    </header>
+    <main>
+      <!-- AboutMe -->
+      <section>
+        <div id="my-info">
+          <h1>בן דקו</h1>
+          <p>מפתח Fullstack</p>
+          <span id="HTML5">HTML5</span>
+          <span id="CSS3">CSS3</span>
+          <span id="JS">JS</span>
+          <span id="PHP">PHP</span>
+          <span id="Wordpress">Wordpress</span>
+          <div id="connect-me">
+            <a href="mailto:bendk1994@gmail.com" target="_blank">Send Email</a
+            ><i class="fa fa-envelope-o" style="font-size: 24px"></i><br />
+            <a href="tel:+972 6255880" target="_blank">Call Me</a>
+            <i class="fa fa-phone" style="font-size: 24px"></i><br />
+            <a
+              href="https://www.linkedin.com/in/ben-dako-7293b7205/"
+              target="_blank"
+              >My Linkedin</a
+            >
+            <i class="fa fa-linkedin-square" style="font-size: 24px"></i><br />
+            <a href="https://api.whatsapp.com/send?phone=+972546255880"
+              >Send me Whatsapp Message</a
+            ><i
+              class="fa fa-whatsapp"
+              aria-hidden="true"
+              style="font-size: 24px"
+            ></i>
+          </div>
+          <div id="pic-me">
+            <img
+              src="/images/Profile-image.jpg"
+              alt="Profile-image"
+              height="200px"
+              width="200px"
+            />
+          </div>
+          <p id="about-me">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br />
+            Aliquam officia voluptates molestiae tempore fuga, delectus
+            assumenda!<br />
+            Modi expedita, minima eaque eum ipsam exercitationem vel ratione!
+          </p>
+        </div>
+      </section>
+
+      <!-- MyProjects -->
+      <section>
+        <div id="first-project">
+          <h4>:שם הפרוייקט</h4>
+          <h5>תאריך</h5>
+          <img
+            src="/images/Space-X.jpg"
+            id="space-x"
+            alt="space-x"
+            height="200px"
+            width="200px"
+          />
+          <p id="p2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br />
+            Incidunt odit rerum unde amet dolor architecto eveniet
+            exercitationem laborum minus illum repellat obcaecati at beatae
+            nostrum optio, voluptate qui.<br />
+            Obcaecati, placeat sapiente.<br />
+            Inventore accusamus quam voluptatem! Corporis ratione at repellat
+            voluptas!
+          </p>
+        </div>
+        <div id="second-project">
+          <h4>:שם הפרוייקט</h4>
+          <h5>תאריך</h5>
+
+          <img
+            src="/images/bezos.jpg"
+            id="bezos"
+            alt="bezos"
+            height="200px"
+            width="200px"
+          />
+          <p id="p3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br />
+            Incidunt odit rerum unde amet dolor architecto eveniet
+            exercitationem laborum minus illum repellat obcaecati at beatae
+            nostrum optio, voluptate qui.<br />
+            Obcaecati, placeat sapiente.<br />
+            Inventore accusamus quam voluptatem! Corporis ratione at repellat
+            voluptas!
+          </p>
+        </div>
+      </section>
+
+      <!-- ContactMy -->
+      <section id="form">
+        <h3>צור קשר</h3>
+        <form action="action_page.php" method="POST" id="form-container">
+          <fieldset>
+            <label for="fname">שם מלא:</label><br />
+            <input type="text" id="fname" name="fname" /><br />
+          </fieldset>
+          <fieldset>
+            <label for="Email">Email:</label><br />
+            <input type="email" id="Email" name="Email" /><br />
+          </fieldset>
+          <fieldset>
+            <textarea cols="50" rows="5">השאר הודעה:</textarea>
+          </fieldset>
+          <input type="submit" id="submit-btn" />
+        </form>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer">Ben Dako, 2021 &copy;</footer>
+  </body>
+</html>
